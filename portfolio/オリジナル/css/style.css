@@ -1,0 +1,388 @@
+/* ------------------------------------- */
+/* base
+/* ------------------------------------- */
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    letter-spacing: .05rem;
+    color: #171717;
+    font-family: 'Frank Ruhl Libre','Noto Serif JP', serif;
+}
+img{
+    width: 100%;
+    vertical-align: bottom;
+}
+.section-wrapper{
+    padding: 100px 0 70px;
+}
+.section-title{
+    max-width: 1000px;
+    font-size: 7.5rem;
+    font-style: normal;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.section-inner{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+ul{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+
+/* ------------------------------------- */
+/* header
+/* ------------------------------------- */
+.header{
+    padding: 19px 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    box-sizing: border-box;
+    width: 100%;
+    transition: .3s;
+}
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.header a{
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2.5rem;
+}
+.header a:hover{
+    opacity: .7;
+    transition: .3s;
+}
+.site-title{
+    font-size: 2.6rem;
+}
+.nav-list{
+    display: flex;
+}
+.nav-item{
+    margin-right: 30px;
+}
+.nav-item:last-of-type{
+    margin-right: 0;
+}
+.burger-btn{
+    display: none;
+}
+.header.fixed{
+    position: fixed;
+    background-color: #282F35;
+    padding: 30px;
+    width: 100%;
+    transition: .3s;
+}
+
+
+/* ------------------------------------- */
+/* fv
+/* ------------------------------------- */
+.fv{
+    height: 100vh;
+    min-height: 550px;
+	background-image: url("../img/fv-img.jpg");
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.main-copy{
+    color: #fff;
+    font-weight: initial;
+    text-align: center;
+    font-size: 13rem;
+    margin-right: 120px;
+    display: block;
+    text-align: center;
+}
+.first{
+    margin-right: 400px;
+}
+p.first{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+p.second{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+/* ------------------------------------- */
+/* concept
+/* ------------------------------------- */
+.bg-concept{
+    background-image: url(./img/concept-bgi.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.concept-wrapper{
+    position: relative;     /* キャッチコピーをアブソリュートにする為にレラティブに設定*/
+}
+.concept-title{
+    text-align: center;
+    letter-spacing: 1.5rem;
+}
+.concept-lead{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    letter-spacing: 1rem;
+    line-height: 3;
+}
+.concept-img{
+    height: 700px;
+}
+/* ------------------------------------- */
+/* gallery
+/* ------------------------------------- */
+.gallery-title{
+    text-align: center;
+    letter-spacing: 1rem;
+    color: #5EB71D;
+}
+.gallery-title-second{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 0;
+}
+.gallery-list{
+    max-width: 1000px;
+    margin: 0 auto 80px;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.gallery-item{
+    width: 30%;
+}
+.gallery-list-img img{
+    height: 200px;
+}
+.gallery-text{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+/* ------------------------------------- */
+/* map
+/* ------------------------------------- */
+.map{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+    padding-top: 0; 
+    margin-bottom: 80px;
+}
+.location-info{
+    width: 22%;
+}
+.location-info p{
+    padding: 12px 10px;
+    line-height: 3;
+
+}
+.location-map{
+    width: 74%;
+}
+iframe{
+    width: 100%;
+}
+.location-title {
+    font-size: 3rem;
+    padding: 0 8px 8px;
+    border-bottom: 2px #0bd solid;
+    font-weight: normal;
+    color: #A07777;
+}
+
+/* ------------------------------------- */
+/* footer
+/* ------------------------------------- */
+.footer{
+    padding: 30px 0;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #ffff;
+    background-color: #A07777;
+}
+
+
+@media screen and (max-width:768px){
+/* ------------------------------------- */
+/* base_sp
+/* ------------------------------------- */
+.section-wrapper{
+    padding: 100px 0 40px;
+}
+.section-title,.concept-text,.gallery-title,.location-title{
+    padding: 0 4vw;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+.section-inner{
+    padding: 0 4vw;
+}
+ul{
+    list-style-type: none;
+}
+/* ------------------------------------- */
+/* header_sp
+/* ------------------------------------- */
+.header{
+    padding: 30px 4vw 0;
+}
+.header-nav{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #282F35;
+}
+.nav-list{
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item{
+    margin: 0 0 30px;
+}
+.nav-item:last-of-type{
+    margin-bottom: 0;
+}
+
+.burger-btn{
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 4vw;
+}
+.burger-btn .bar{
+    display: block;
+    height: 3px;
+    width: 30px;
+    background-color: #fff;
+    transition: .3s;
+}
+.bar_top,
+.bar_mid{
+    margin-bottom: 8px;
+}
+
+.burger-btn.cross .bar_top{
+    transform: rotate(45deg) translate(8px,8px);
+    transition: .3s;
+}
+.burger-btn.cross .bar_mid{
+    opacity: 0;
+    transition: .3s;
+}
+.burger-btn.cross .bar_bottom{
+    transform: rotate(-45deg) translate(8px,-8px);
+    transition: .3s;
+}
+
+body.noscroll{
+    overflow: hidden;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
+}
+
+/* ------------------------------------- */
+/* fv_sp
+/* ------------------------------------- */
+.main-copy{
+    font-size: 6rem;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+.first{
+    margin: 0 60px 0 0;
+}
+.second{
+    margin: 0 0 0 60px;
+}
+/* ------------------------------------- */
+/* concept_sp
+/* ------------------------------------- */
+.concept-lead{
+    font-size: 1.3rem;
+}
+
+/* ------------------------------------- */
+/* gallery_sp
+/* ------------------------------------- */
+.gallery-title{
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+
+.gallery-list{
+    display: block;
+    padding: 0 4vw;
+    margin-bottom: 80px;
+}
+.gallery-item{
+    width: 320px;
+    max-width: 100%;
+    margin: 0 auto 30px;
+}
+
+/* ------------------------------------- */
+/* map_sp
+/* ------------------------------------- */
+.map{
+    display: block;
+    justify-content: center;
+    margin: 0 10px;
+    margin-bottom: 80px;
+}
+.location-info,
+.location-map{
+    width: 100%;
+}
+.location-info p{
+    padding-top: 0;
+    margin-bottom: 30px;
+}
+.location-title{
+    margin-bottom: 30px;
+}
+.sp_map{
+    display: none;
+}
+
+}
