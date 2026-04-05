@@ -71,20 +71,20 @@ ul{
 
 #popup, #popup2, #popup3, #popup4, #popup5, #popup6{
     display: none; /* label でコントロールするので input は非表示に */
-  }
-  
-  .popup-open {
+}
+
+.popup-open {
     cursor: pointer; /* マウスオーバーでカーソルの形状を変えることで、クリックできる要素だとわかりやすいように */
-  }
-  
-  .popup-overlay,.popup-overlay2,.popup-overlay3,.popup-overlay4,.popup-overlay5,.popup-overlay6 {
+}
+
+.popup-overlay,.popup-overlay2,.popup-overlay3,.popup-overlay4,.popup-overlay5,.popup-overlay6 {
     display: none; /* input にチェックが入るまでは非表示に */
-  }
-  .work-items input{
+}
+.work-items input{
     border: none;
-  }
-  
-  #popup:checked ~ .popup-overlay {
+}
+
+#popup:checked ~ .popup-overlay {
     display: block;
     z-index: 99999;
     background-color: #00000070;
@@ -93,8 +93,8 @@ ul{
     height: 100vh;
     top: 0;
     left: 0;
-  }
-  #popup2:checked ~ .popup-overlay2 {
+}
+#popup2:checked ~ .popup-overlay2 {
     display: block;
     z-index: 99999;
     background-color: #00000070;
@@ -103,8 +103,8 @@ ul{
     height: 100vh;
     top: 0;
     left: 0;
-  }  
-  #popup3:checked ~ .popup-overlay3 {
+}
+#popup3:checked ~ .popup-overlay3 {
     display: block;
     z-index: 99999;
     background-color: #00000070;
@@ -113,8 +113,8 @@ ul{
     height: 100vh;
     top: 0;
     left: 0;
-  }  
-  #popup4:checked ~ .popup-overlay4 {
+}
+#popup4:checked ~ .popup-overlay4 {
     display: block;
     z-index: 99999;
     background-color: #00000070;
@@ -123,8 +123,8 @@ ul{
     height: 100vh;
     top: 0;
     left: 0;
-  }  
-  #popup5:checked ~ .popup-overlay5 {
+}
+#popup5:checked ~ .popup-overlay5 {
     display: block;
     z-index: 99999;
     background-color: #00000070;
@@ -133,8 +133,8 @@ ul{
     height: 100vh;
     top: 0;
     left: 0;
-  }  
-  #popup6:checked ~ .popup-overlay6 {
+}
+#popup6:checked ~ .popup-overlay6 {
     display: block;
     z-index: 99999;
     background-color: #00000070;
@@ -143,8 +143,8 @@ ul{
     height: 100vh;
     top: 0;
     left: 0;
-  }  
-  .popup-window {
+}
+.popup-window {
     width: 100vw;
     max-width: 600px;
     padding: 20px;
@@ -154,8 +154,8 @@ ul{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-  .popup-window2 {
+}
+.popup-window2 {
     width: 100vw;
     max-width: 600px;
     padding: 20px;
@@ -165,8 +165,8 @@ ul{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-  .popup-window3 {
+}
+.popup-window3 {
     width: 100vw;
     max-width: 600px;
     padding: 20px;
@@ -176,8 +176,8 @@ ul{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-  .popup-window4 {
+}
+.popup-window4 {
     width: 100vw;
     max-width: 600px;
     padding: 20px;
@@ -187,8 +187,8 @@ ul{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-  .popup-window5 {
+}
+.popup-window5 {
     width: 100vw;
     max-width: 600px;
     padding: 20px;
@@ -198,8 +198,8 @@ ul{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-  .popup-window6 {
+}
+.popup-window6 {
     width: 100vw;
     max-width: 600px;
     padding: 20px;
@@ -209,35 +209,35 @@ ul{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-  .popup-text {
+}
+.popup-text {
     margin: 30px 0 10px 0;
     text-align: center;
-  }
-  
-  .popup-text:not(:last-of-type) {
+}
+
+.popup-text:not(:last-of-type) {
     margin-bottom: 1em
-  }
-  
-  .popup-close {
+}
+
+.popup-close {
     cursor: pointer;
     position: absolute;
     top: -26px;
     right: 0;
-  }
-  .popup_text{
+}
+.popup_text{
     text-align: left;
-  }
-  .popup_text li span{
+}
+.popup_text li span{
     font-weight: bold;
     margin-bottom: 10px;
     color: #0E0E0E;
-  }
-  .popup_text_in{
+}
+.popup_text_in{
     color: #707070;
     margin-bottom: 30px;
-  }
-  .popup-window a img{
+}
+.popup-window a img{
     margin-left: 25%;
 }
 .popup-window2 a img{
@@ -255,7 +255,7 @@ ul{
 .popup-window6 a img{
     margin-left: 25%;
 }
-  .url{
+.url{
     color: #0E0E0E;
     text-decoration: underline;
     font-style: italic;
@@ -513,73 +513,73 @@ ul{
     left: 0;
 }
 .popup-window {
-  width: 100vw;
-  max-width: 300px;
-  padding: 10px;
-  background-color: #efeeee;
-  border-radius: 6px;
-  position: fixed;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    width: 100vw;
+    max-width: 300px;
+    padding: 10px;
+    background-color: #efeeee;
+    border-radius: 6px;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .popup-window2 {
-  width: 100vw;
-  max-width: 300px;
-  padding: 10px;
-  background-color: #efeeee;
-  border-radius: 6px;
-  position: fixed;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    width: 100vw;
+    max-width: 300px;
+    padding: 10px;
+    background-color: #efeeee;
+    border-radius: 6px;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .popup-window3 {
-  width: 100vw;
-  max-width: 300px;
-  padding: 10px;
-  background-color: #efeeee;
-  border-radius: 6px;
-  position: fixed;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    width: 100vw;
+    max-width: 300px;
+    padding: 10px;
+    background-color: #efeeee;
+    border-radius: 6px;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .popup-window4 {
-  width: 100vw;
-  max-width: 300px;
-  padding: 10px;
-  background-color: #efeeee;
-  border-radius: 6px;
-  position: fixed;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    width: 100vw;
+    max-width: 300px;
+    padding: 10px;
+    background-color: #efeeee;
+    border-radius: 6px;
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .popup-window5 {
-  width: 100vw;
-  max-width: 300px;
-  padding: 10px;
-  background-color: #efeeee;
-  border-radius: 6px;
-  position: fixed;
-  top: 75%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    width: 100vw;
+    max-width: 300px;
+    padding: 10px;
+    background-color: #efeeee;
+    border-radius: 6px;
+    position: fixed;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .popup-window6 {
-  width: 100vw;
-  max-width: 300px;
-  padding: 10px;
-  background-color: #efeeee;
-  border-radius: 6px;
-  position: fixed;
-  top: 75%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    width: 100vw;
+    max-width: 300px;
+    padding: 10px;
+    background-color: #efeeee;
+    border-radius: 6px;
+    position: fixed;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .popup-window a img{
-  margin:0 auto;
+    margin:0 auto;
 }
 .popup-window2 a img{
     margin:0 auto;
